@@ -1,0 +1,35 @@
+body{
+    background: rgb(10, 14, 39);
+}
+
+#frm{
+    border:solid white 1px;
+    width: 20%;
+    border-radius:25px;
+    margin:90px auto;
+    background:white;
+    padding: 69px;
+}
+#btnSearch{   
+    color:rgb(192, 18, 18);
+    background:#d0e60d;
+    padding:10px;
+    margin:45%;
+
+}
+
+#box{
+    border:solid white 1px;
+    width: 37%;
+    border-radius:25px;
+    margin:90px auto;
+    background:white;
+    padding: 69px;
+      
+}
+#btnBook{
+    top: -43px;
+    left: 410px;
+      
+}
+
