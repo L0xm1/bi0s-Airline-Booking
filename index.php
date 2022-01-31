@@ -1,22 +1,23 @@
-<?php
-session_start();
-$_SESSION;
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meta Airline Booking</title>
-</head>
-<body>
-    <a href="logout.php">Logout</a>
-       <h1>Index Page</h1>
-       <br>Hello User!</br>
-
-
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <h1 style="color:white; text-align: center;"><b>Welcome to Meta Airline Booking</b></h1>
+    <a style="color:white" href="login.php"></a>
     
-</body>
+    <a style="color:white"  href="signup.php"></a>
+    
+</head>
+<style>
+body {
+  background-image: url('flightimage/flight.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<body>
+  <a href="login.php"><button>USER LOGIN</button></a>
+  <a href ="signup.php"><button>SIGNUP </button></a>
 </html>
